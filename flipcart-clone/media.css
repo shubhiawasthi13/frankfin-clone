@@ -1,0 +1,54 @@
+
+@media screen and (max-width:768px) {
+    .menu-btn{
+        display: initial;
+
+    }
+    .navbar .logo{
+        font-size: 20px;
+}
+    .navbar .nav-link{
+        display: none;
+    }
+    .navbar a{
+        font-size: 15px;
+    }
+    .navbar img{
+        width: 20px;
+    }
+    .navbar .setting{
+        display: none;
+    }
+    
+    .login-container{
+     display: block;
+    }
+    .login-container .left{
+        display: none;
+}
+.container-1{
+    overflow-x: scroll;
+}
+.container-2{
+    background-color: rgb(252, 87, 178);
+    height: 40vh;
+}
+.container-2 .latest-container{
+    display: flex;
+}
+.mySlides{
+  padding-top: 1rem;
+  margin-left: 0;
+}
+.mySlides img{
+    width: 100%;
+    height: 15vh;
+}
+.container-2 .prev, .next{
+   display: none;
+}
+.container-3 {
+    display: none;
+}
+    
+}

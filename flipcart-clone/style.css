@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+html{
+    background-color: rgb(205, 208, 209);
+    overflow-x: hidden;
+    
+}
+.menu-btn{
+    font-weight: bold;
+    padding: 0 15px;
+    display: none;
+    
+}
+.close-btn{
+    font-size: 20px;
+    padding-left: 50px;
+    color: white;
+    cursor: pointer;
+}
+.menu-container{
+    background-color: white;
+    width: 60vw;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    left: -90%;
+    z-index: 1001;
+    transition: .2s linear;
+}
+.showmenu-container{
+    left: 0;
+}
+.menu-container .head-box{
+    background-color: blue;
+    padding: 15px;
+    text-align: center;
+}
+.head-box a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.menu-container .menu_box a{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: black;
+}
+.header{
+    background-color: white;
+    height: 10vh;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+     padding-top: 15px;
+}
+.navbar .logo{
+    color: blue ; 
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.navbar .search-bar{
+    width: 40vw;
+    padding: 7px;
+    background-color: rgb(205, 208, 209);
+    color: black;
+    border: none;
+}
+.navbar a{
+    color: rgb(66, 66, 66);
+    font-size: 17px;
+}
+.container-1{
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 8px 12px 8px ;
+    padding: 0 8px;
+}
+.mySlides{
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: 0 8px;
+}
+.prev, .next{
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(240, 219, 219);
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    background-color: white;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+    background-color: rgb(102, 96, 85);
+}
+.fade{
+   animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+.container-2 .latest-container{
+    display: flex;
+    justify-content: space-around;
+     display: none;
+}
+.latest-container .box{
+    margin-top: 7px;
+   background-color: white;
+   width: 30vw;
+   height: auto;
+}
+.box img{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+.box p{
+    font-size: 14px;
+    text-align: center;
+}
+.box h5{
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+.container-3{
+    height: 20vh;
+    background-color: white;
+    margin-top: 8px;
+   display: flex;
+   align-items: center;
+justify-content: center;
+}
+.container-3 img{
+width: 100%;
+}
+.login-container{
+    width: 60vw;
+    height: 80vh;
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.login-container .left{
+    flex: 1 1 15vw;
+    background-color: blue;
+}
+.left h2{
+    color: white;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.left p{
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 16px;
+    padding-left: 20px;
+}
+.left img{
+    padding-top: 250px;
+    padding-left: 25px;
+}
+
+.login-container .right{
+    flex: 1 1 25vw;
+}
+.right form{
+   padding-top: 30px;
+}
+.right label{
+    padding-left: 20px;
+}
+.right .input-1{
+    border-color: blue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 6px;
+    width: 80%;
+    margin-left: 20px;
+
+}
+.right p{
+    text-align: center;
+    padding:  20px 0;
+}
+.right p span{
+    color: blue;
+}
+.right .otp-btn{
+    width: 80%;
+    margin: 0 20px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.right .sign-link{
+    padding-top: 280px;
+    color: blue;
+}
+  
+
+  
+
+
